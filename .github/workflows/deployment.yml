@@ -1,5 +1,5 @@
 name: Deploy Project
-on: push
+on: [push, workflow_dispatch]
 jobs:
   # 01 - Test the Repo
   test-job:
